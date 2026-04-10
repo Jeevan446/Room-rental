@@ -24,7 +24,8 @@ function Home() {
           {
             !isInputFocus&&(
                 <CiSearch className=" text-black absolute left-2 top-1/2 transform -translate-y-1/2 text-2xl opacity-50" />
-            )
+            )    
+            
           }   
         </div>
       </div>
