@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <>
-      <div className=" h-[93px] bg-[#F2F2F2] w-full flex items-center px-[77px] justify-between">
+      <div className=" h-[80px] bg-[#F2F2F2] w-full flex items-center px-[77px] justify-between">
         {/* main navbar div */}
 
         <div>
