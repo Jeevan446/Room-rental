@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 import Featured from "../components/Featured";
+import img from '../assets/images/right.png'
 function Home() {
   const [isInputFocus, setIsInputFocus] = useState(false);
   return (
@@ -35,6 +36,21 @@ function Home() {
       </div>
 
     <Featured style='mt-22 '/>
+
+    <div className=" w-[80%] h-[400px] mt-19 bg-amber-200 mb-10 rounded-t-4xl flex">
+      {/* comfort section  main container*/}
+       <div className="w-[50%] h-full bg-[#EFEFEF] flex flex-col  gap-14 items-center pt-24 rounded-tl-4xl"> 
+       {/* left subdiv */}
+     <p className=" text-4xl  font-semibold font-albert text-black/70 w-[89%] font-albert text-center relative left-[3%]">Find best and comfortable Rooms best for you and your family</p>
+     <button className="w-[180px] h-[70px] text-white font-barlow rounded-[200px] bg-blue-900 cursor-pointer text-2xl font-semibold">Find Now</button>
+       </div>
+
+       <div className=" w-[50%] h-full rounded-tr-4xl">
+        {/* right subdiv */}
+        <img src={img} className=" w-full h-full rounded-tr-4xl "></img>
+       </div>
+        
+    </div>
     </div>
   );
 }

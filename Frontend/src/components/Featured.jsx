@@ -1,8 +1,9 @@
 import { FaRupeeSign } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot,FaArrowRightLong  } from "react-icons/fa6";
+
 function Featured(props) {
   return (
-    <div className={` w-[86%] flex flex-col gap-8 ${props.style} pb-10 `}>
+    <div className={` w-[86%] flex flex-col gap-8 ${props.style} pb-5 relative`}>
       {/* main container */}
       <h1 className=" sm:text-4xl font-semibold  font-barlow md:ml-14 ">Featured Rooms</h1>
       <div className="flex overflow-x-auto sm:overflow-visible sm:flex-wrap gap-8 sm:gap-5  sm:justify-center" >
@@ -23,16 +24,16 @@ function Featured(props) {
               3 Bhk Apartment
             </p>
             <div
-              className=" mt-2 flex gap-2
-"
+              className=" mt-2 flex gap-2 
+"                 
             >
               {/* price and location container */}
-              <div className=" flex relative">
+              <div className=" flex relative ">
                 {/* price */}
                 <FaRupeeSign className=" font-light opacity-50 text-sm" />
-                <p className=" text-[17px] font-semibold text-orange-500 relative bottom-[4px]">
+                <p className=" text-[17px] font-semibold text-orange-500 relative bottom-[4px]  max-w-[47px]  overflow-clip">
                   {" "}
-                  3000
+                  30090000000000
                 </p>
                 <p className=" font-barlow relative top-[6px] font-semibold opacity-50 text-[10px]">
                   month
@@ -42,7 +43,7 @@ function Featured(props) {
                 {/* location */}
                 <FaLocationDot className=" text-sm opacity-50" />
                 <p className=" text-sm font-barlow font-semibold opacity-55 relative bottom-[2px] w-[92px]  overflow-clip">
-                  Kathmandusadfdsfsgtftddsfsddsfsdfsx
+                  Sankhuwasava
                 </p>
               </div>
             </div>
@@ -221,8 +222,13 @@ function Featured(props) {
 
             <button className=" border-1 w-[50%] h-[30px] mt-3 rounded-xl bg-blue-950 text-white font-barlow font-semibold text-sm cursor-pointer">View details</button>
           </div>
+
         </div>
         
+      </div>
+      <div className=" absolute right-17 bottom-0">
+        {/* seemore */}
+        <a className=" flex font-semibold text-blue-900">seemore <FaArrowRightLong className="  relative top-[7px] left-[3px]" /></a>
       </div>
     </div>
   );
