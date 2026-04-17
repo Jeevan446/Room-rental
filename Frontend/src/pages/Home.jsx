@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 function Home() {
   const [isInputFocus, setIsInputFocus] = useState(false);
   return (
-    <div className=" flex flex-col items-center ">
+    <div className=" flex flex-col items-center bg-[#F3F4F8]">
       <Navbar />
       <div className="flex flex-col gap-14 items-center max-w-[900px] w-[90vw] h-[280px] mt-[70px] bg-gradient-to-b from-[#2B0990] to-[#0C032A]  rounded-[50px] pt-7">
         {/* heroSection */}
@@ -39,7 +39,7 @@ function Home() {
 
     <Featured style='mt-22 '/>
 
-    <div className=" w-[80%] h-[400px] mt-19 bg-amber-200 mb-10 rounded-t-4xl flex">
+    <div className=" w-[80%] h-[400px] mt-19 bg-amber-200 mb-10 rounded-t-4xl flex shadow-xl">
       {/* comfort section  main container*/}
        <div className="w-[50%] h-full bg-[#EFEFEF] flex flex-col  gap-14 items-center pt-24 rounded-tl-4xl"> 
        {/* left subdiv */}
