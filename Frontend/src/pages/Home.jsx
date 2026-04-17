@@ -4,6 +4,7 @@ import { useState } from "react";
 import Featured from "../components/Featured";
 import img from '../assets/images/right.png'
 import NeedHelp from "../components/NeedHelp";
+import Footer from "../components/Footer";
 function Home() {
   const [isInputFocus, setIsInputFocus] = useState(false);
   return (
@@ -56,6 +57,7 @@ function Home() {
       {/* faq div */}
       <NeedHelp/>
     </div>
+    <Footer/>
     </div>
 
   );
