@@ -3,6 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 import Featured from "../components/Featured";
 import img from '../assets/images/right.png'
+import NeedHelp from "../components/NeedHelp";
 function Home() {
   const [isInputFocus, setIsInputFocus] = useState(false);
   return (
@@ -50,8 +51,13 @@ function Home() {
         <img src={img} className=" w-full h-full rounded-tr-4xl "></img>
        </div>
         
+    </div> 
+    <div className=" w-[82%]">
+      {/* faq div */}
+      <NeedHelp/>
     </div>
     </div>
+
   );
 }
 export default Home;
