@@ -228,7 +228,7 @@ function Featured(props) {
       </div>
       <div className=" absolute right-17 bottom-0">
         {/* seemore */}
-        <a className=" flex font-semibold text-blue-900">seemore <FaArrowRightLong className="  relative top-[7px] left-[3px]" /></a>
+        <a  href="https://www.facebook.com/" className=" flex font-semibold text-blue-900">seemore <FaArrowRightLong className="  relative top-[7px] left-[3px]" /></a>
       </div>
     </div>
   );
