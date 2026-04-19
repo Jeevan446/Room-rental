@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
 function Footer(){
 return (
-<div className=" w-full min-h-[300px] bg-[#EBE7F8] px-15 py-12 flex ">
+<div className=" w-full min-h-[300px] bg-[#EBE7F8] px-15 py-12 flex mt-13">
     {/* footer full containter */}
 <div className=" h-[100%] w-[33.33%]">
     {/* left section */}
@@ -18,9 +18,16 @@ return (
     <FaLinkedin  className=" text-2xl bg-[#723AE6] rounded text-white"/>
    </div>
 </div>
-<div className=" bg-amber-500 h-full w-[33.33%]">
+<div className="  h-full w-[33.33%]">
     {/* middle section */}
-    dsfds
+    <h1 className=" font-albert text-xl font-semibold">Quick Links</h1>
+    <ul>
+        <li><a href="./home">Home</a></li>
+        <li><a href="./list ">List Room</a></li>
+        <li><a>Find Room</a></li>
+        <li><a>Contact Us</a></li>
+        <li><a>Privicy Policy</a></li>
+    </ul>
 </div>
 <div className=" bg-amber-600 h-full w-[33.33%] ">
     {/* right section */}
