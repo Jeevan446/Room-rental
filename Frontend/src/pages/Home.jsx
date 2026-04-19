@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 function Home() {
   const [isInputFocus, setIsInputFocus] = useState(false);
   return (
-    <div className=" flex flex-col items-center bg-[#F3F4F8]">
+    <div className=" flex flex-col items-center bg-[#F3F4F8] overflow-x-hidden  relative">
       <Navbar />
       <div className="flex flex-col gap-14 items-center max-w-[900px] w-[90vw] h-[280px] mt-[70px] bg-gradient-to-b from-[#2B0990] to-[#0C032A]  rounded-[50px] pt-7">
         {/* heroSection */}
