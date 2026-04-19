@@ -1,3 +1,6 @@
+import gsap from 'gsap'
+import {useGsap} from '@gsap/react'
+import { useRef } from 'react';
 function Navbar() {
   return (
     <>

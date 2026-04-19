@@ -21,17 +21,20 @@ return (
 <div className="  h-full w-[33.33%]">
     {/* middle section */}
     <h1 className=" font-albert text-xl font-semibold">Quick Links</h1>
-    <ul>
-        <li><a href="./home">Home</a></li>
+    <ul className="mt-3 flex flex-col gap-1 ">
+        <li className=""><a href="./home">Home</a></li>
         <li><a href="./list ">List Room</a></li>
         <li><a>Find Room</a></li>
         <li><a>Contact Us</a></li>
         <li><a>Privicy Policy</a></li>
     </ul>
 </div>
-<div className=" bg-amber-600 h-full w-[33.33%] ">
+<div className="  h-full w-[33.33%] ">
     {/* right section */}
-    dfsdfs
+    <h1 className=" text-xl font-albert font-semibold">Contact Us</h1>
+    <p>Bharatpur-10 Campuschowk</p>
+    <p>ghr.support@gmail.com</p>
+    <p>Mon-Fri: 9 AM- 6PM</p>
 </div>
 </div>
 )
